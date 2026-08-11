@@ -1,0 +1,29 @@
+.nav{
+    width: 100%;
+   padding: 40px 0px;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+  
+}
+.nav .all-nav{
+width: 80%;
+}
+.nav .all-nav h1{
+    text-transform: uppercase;
+    border-bottom: solid 1px white;
+    margin:0px auto 20px;
+    width: 200px;
+    padding-bottom: 10px;
+    
+}
+.nav .all-nav p{
+    text-transform: capitalize;
+    line-height: 30px;
+}
+.nav .all-nav p span{
+    color: blue;
+}

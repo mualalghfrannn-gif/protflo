@@ -1,7 +1,10 @@
 .App {
   text-align: center;
-}
 
+}
+html{
+  scroll-behavior: smooth;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +15,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+body{
 
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +41,56 @@
     transform: rotate(360deg);
   }
 }
+
+
+body.light .main-header {
+  background-color: white;
+  color: black;
+  
+}
+body.light .main-header .nav-list{
+  background-color: white;
+}
+body.light .nav{
+    background-color: white;
+  color: black;
+  }
+  body.light .skills-section{
+      background-color: white;
+  color: black;
+  
+  }
+  body.light .skills-section .skills-title{
+    border-bottom: solid 2px black;
+  }
+   body.light .footer-all{
+     background-color: white;
+  color: black;
+   }
+   body.light .footer-all .footer_h h3{
+    color: black;
+    border-bottom: 1px solid black;
+   }
+  body.light .footer-all .contact-container{
+     background-color: white;
+  color: black;
+  }
+  body.light .footer-all .footer-container-one ,  body.light .footer-all .footer-container-one a ,body.light .footer-all .brand-desc-one ,body.light .footer-all .ahfor{
+     background-color: white;
+  color: black;
+  
+
+  }
+  body.light .footer-all .footer-links-one{
+    text-transform: capitalize;
+   
+  }
+body.light .footer-all .footer-container-one a:hover{
+  color: blue;
+}
+  body.light .footer-all h3 ,   body.light .footer-all h2{
+    color: black;
+  }
+  body.light .footer-all .contact-container h3{
+    color: white;
+  }

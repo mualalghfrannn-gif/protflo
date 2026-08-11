@@ -1,0 +1,310 @@
+
+.footer-all{
+    background-color: #000000;
+    
+}
+
+
+
+.footer_h h3{
+    text-transform: uppercase;
+    border-bottom: solid 1px white;
+    margin: auto;
+    width: 110px;
+    padding: 10px 0px;
+    color: white;
+letter-spacing: 2px;
+margin-bottom: 20px;
+    
+}
+
+
+
+.contact-container {
+ 
+  margin: 0 auto;
+  padding: 40px 20px;
+background-color: #0b131e;
+}
+
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  padding: 20px 25px;
+  border-radius: 16px;
+  background-color: #0b131e; /* خلفية كحلي كاشفة وداكنة */
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.contact-card:hover {
+  transform: translateY(-3px);
+}
+
+
+.contact-card.whatsapp {
+  border: 1px solid #0284c7;
+}
+
+.contact-card.gmail {
+  border: 1px solid #0284c7; 
+}
+
+.contact-card.github {
+  border: 1px solid #3b82f6; /* أزرق فاتح */
+}
+
+.contact-card.linkedin {
+  border: 1px solid #2563eb; /* أزرق كلاسيكي */
+}
+
+/* الأيقونات بألوانها الخاصة */
+.icon {
+  font-size: 2.2rem;
+  margin-right: 20px;
+}
+
+.whatsapp-icon { color: #ffffff; }
+.gmail-icon { color: #ffffff; }
+.github-icon { color: #ffffff; }
+.linkedin-icon { color: #ffffff; }
+
+/* النصوص */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-name {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.whatsapp .contact-name { color: #ffffff; }
+.gmail .contact-name { color: #ffffff; }
+.github .contact-name { color: #ffffff; }
+.linkedin .contact-name { color: #ffffff; }
+
+.contact-value {
+  margin: 4px 0 0 0;
+  color: #94a3b8; /* لون رمادي هادئ للنص الفرعي */
+  font-size: 0.95rem;
+}
+
+
+
+.footer-container-one {
+  background-color: #000000;
+  color: #9ca3af;
+  padding: 50px 20px;
+
+
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-content-one {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-col-one {
+  flex: 1;
+  min-width: 220px;
+
+}
+
+/* 1. قسم الشعار والاسم */
+.brand-header-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    border-bottom: solid 1px white;
+    padding-bottom: 20px;
+  margin: auto;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.footer-logo-one {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.brand-name-one {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.brand-desc-one {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #9ca3af;
+  max-width: 280px;
+}
+
+/* عناوين الأعمدة */
+.col-title-one {
+  color: #ffffff;
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+/* 2. قسم الروابط */
+.footer-links-one {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links-one li {
+  margin-bottom: 10px;
+}
+
+.footer-links-one a {
+  color: #9ca3af;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.footer-links-one a:hover {
+  color: #fafcfd;
+}
+
+/* 3. قسم السوشيال ميديا */
+.social-icons-one {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+}
+
+.social-btn-one {
+  font-size: 1.8rem;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.social-btn-one:hover {
+  transform: translateY(-3px);
+  opacity: 0.85;
+}
+
+.social-btn-one.linkedin-one {
+  color: white;
+  border: solid 2px blue;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+.social-btn-one.github-one {
+  color: #ffffff;
+  border: solid 2px blue;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+.social-btn-one.whatsapp-one {
+  color: white;
+  border: solid 2px blue;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+
+
+
+.ahfor{
+color: white;
+background-color: #000000;
+padding: 30px 20px;
+text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* التجاوب مع الموبايل */
+@media (max-width: 768px) {
+  .footer-content-one {
+    flex-direction: column;
+    gap: 30px;
+     justify-content: center;
+    
+  }
+   .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-container-one {
+  
+  display: flex;
+  justify-content: center;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,194 @@
+
+.main-header {
+  display: flex;
+  justify-content: space-between; /* توزيع الأقسام الثلاثة على الأطراف وبينهما مسافات */
+  align-items: center;    /* محاذاة جميع العناصر عمودياً في الوسط */
+  padding: 10px 20px;
+  background-color: #000000; /* لون خلفية فاتح افتراضي */
+  color: white;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.5); 
+  position: fixed;       /* لتثبيت الـ header في الأعلى */
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1000;  
+text-transform: capitalize;
+        /* لضمان ظهوره فوق المحتوى */
+}
+.light{
+   background-color: #f2f2f2; /* لون خلفية فاتح افتراضي */
+  color: rgb(0, 0, 0);
+}
+
+.header-logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  gap: 10px;     
+  
+}
+.header-logo-section p{
+ text-transform: uppercase;   
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; 
+  object-fit: cover;  
+}
+
+.site-title {
+  font-size: 1.2rem;
+  font-weight: 1000;
+ 
+  text-transform: capitalize;
+}
+
+
+.header-nav-section {
+  flex: 1;             /* يأخذ المساحة المتبقية إذا لزم الأمر ولكنه يتموضع بالوسط بفضل space-between */
+  display: flex;
+  width: 70%;
+  justify-content: center; /* توسيع القائمة نفسها في منتصف القسم الخاص بها */
+}
+
+.nav-list {
+  display: flex;       /* جعل عناصر القائمة أفقية */
+  list-style: none;     /* إزالة النقاط من القائمة */
+  margin: 0;
+  padding: 0;
+  gap: 50px; 
+            /* مسافة بين كل رابط والآخر */
+}
+
+.nav-list li a {
+  text-decoration: none; /* إزالة الخط السفلي من الروابط */
+  color: inherit;       /* ويرث اللون من العنصر الأب */
+  font-weight: 500;
+  transition: color 0.3s ease; /* تأثير ناعم عند التمرير */
+}
+
+.nav-list li a:hover {
+  color: #007bff;       /* تغيير اللون عند تمرير الماوس */
+}
+
+/* القسم الثالث: الأيقونات والإعدادات */
+.header-actions-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;   
+  justify-content: space-around;
+  position: absolute;
+inset-inline-end: 20px;
+  margin-left: auto;      
+}
+
+
+
+
+
+body.dark-theme .icon-btn:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+ .iconss{
+   cursor: pointer;
+  display: flex;
+  justify-content: start;
+  transition: 0.3s;
+ }
+.iconss:hover{
+  color: #007bff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================
+   التنسيقات الخاصة بالهواتف وشاشات الموبايل 
+   ========================================== */
+@media (max-width: 968px) {
+  .main-header {
+    /* تغيير الاتجاه ليصبح عمودياً أو تحسين ترتيب العناصر */
+    flex-wrap: wrap; 
+    padding: 10px 15px;
+    justify-content: space-between;
+    margin: auto;
+    gap: 10px;
+  }
+
+  /* القسم الأول: الشعار بالنص */
+  .header-logo-section {
+    order: 1; /* ترتيب ظهور العنصر */
+  }
+
+  .logo-img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .site-title {
+    font-size: 1rem;
+  }
+
+  /* القسم الثالث: الأيقونات (نضعه بجانب الشعار في الأعلى) */
+  .header-actions-section {
+    order: 2;
+    gap: 10px;
+   margin-left: auto;
+  }
+
+  /* القسم الثاني: القائمة (نضعها في سطر مستقِل تحت الشعار والأيقونات) */
+  .header-nav-section {
+    order: 3;
+    width: 100%; /* جعل القائمة تأخذ العرض الكامل */
+    border-top: 1px solid rgba(0, 0, 0, 0.08); /* خط فاصل بسيط */
+    padding-top: 8px;
+    margin-top: 2px;
+  }
+
+
+  .nav-list {
+    justify-content: space-around; 
+    width: 100%;
+    gap: 8px;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    right: 0px;
+    background-color: #000000;
+    padding: 10px 0px;
+  }
+
+  .nav-list li a {
+    font-size: 0.85rem; /* تصغير حجم الخط ليتناسب مع الشاشة */
+    padding: 4px 6px;
+  }
+  .header-nav-section .nav-list{
+border-top: solid 1px white;
+
+  }
+  
+}
+
+/* تنسيق للوضع المظلم على الهواتف */
+body.dark-theme .header-nav-section {
+  border-top-color: rgba(255, 255, 255, 0.1);
+}

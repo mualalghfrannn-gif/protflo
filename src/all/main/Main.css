@@ -1,0 +1,150 @@
+
+
+
+
+
+
+
+
+.main-container {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+ /* لمنع ظهور شريط التمرير عند تحرك الدوائر للخارج */
+  /* خلفية الشبكة المربعات الخاصة بك */
+  background-image: url('../../img/muhame.jpg'); 
+background-attachment: fixed;
+background-size: contain;
+background-position: center;
+}
+
+
+
+
+
+
+
+
+/* الدوائر - إزالة الـ blur العالي وزيادة الشفافية */
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  
+  z-index: 1; /* التأكد من أنها فوق الخلفية */
+}
+
+/* الدائرة الأولى (أعلى اليسار) */
+.circle-1 {
+  width: 300px;
+  height: 300px;
+  top: 10%;
+  left: -20px;
+  /* لون أزرق فاقع مع إضاءة خارجية Box Shadow */
+  background: rgba(0, 122, 255, 0.6);
+  box-shadow: 0 0 80px 40px rgba(0, 122, 255, 0.5);
+  animation: floatCircle1 8s ease-in-out infinite alternate;
+   
+}
+
+
+.circle-2 {
+  width: 350px;
+  height: 350px;
+  bottom: 3%;
+  right: -28px;
+background-attachment: fixed;
+  background: rgba(0, 212, 255, 0.5);
+  box-shadow: 0 0 100px 50px rgba(0, 212, 255, 0.4);
+  animation: floatCircle2 8s ease-in-out infinite alternate;
+}
+
+/* حركات الحركة */
+@keyframes floatCircle1 {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  100% {
+    transform: translate(100px, 80px) scale(1.2);
+  }
+}
+
+@keyframes floatCircle2 {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  100% {
+    transform: translate(-100px, -80px) scale(1.1);
+  }
+}
+.all-about{
+    width: 100%;
+    height: 60vh;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+   
+
+    
+
+}
+.about{
+    width: 90%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.8);
+    border-radius:20px 20px 0px 0px;
+    color: white;
+
+}
+.about h1{
+    text-transform: capitalize;
+    margin: 20px 0px;
+    font-size: 14px;
+   
+   
+}
+.about .front{
+    font-size: 40px;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px rgba(0, 122, 255, 0.5), 0px 0px 20px rgba(0, 122, 255, 0.4), 0px 0px 30px rgba(0, 122, 255, 0.3), 0px 0px 40px rgba(0, 122, 255, 0.2);
+}
+
+
+.downloade{
+margin-top: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+
+}
+.downloade button a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    border-radius: 10px;
+     border: solid 1px white;
+ padding: 0px 10px;
+   color: white;
+   text-decoration: none;
+   text-transform: capitalize;
+   font-weight: 700;
+
+}
+.downloade button {
+background: transparent;
+border: none;
+}
+.downloade button a p{
+    margin-right: 6px;
+}
+.downloade button a span{
+    color: blue;
+}

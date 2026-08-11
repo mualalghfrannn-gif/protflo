@@ -1,0 +1,18 @@
+{
+    "Core & Languages": "Core & Languages" ,
+  "Frameworks & Styling": "Frameworks & Styling",
+  "APIs & Developer Tools": "APIs & Developer Tools",
+  "Engineering & Practices": "Engineering & Practices",
+  
+  "Clean Code": "Clean Code",
+  "Responsive Design": "Responsive Design",
+  "Performance Optimization": "Performance Optimization",
+  "UI/UX Concepts": "UI/UX Concepts",
+    "abouts":"about me",
+    "skills": "skills",
+    "quick_link":"quick link",
+    "als":"© 2026 muhamed albasha, all rihts reserved built with react & tailwind css",
+    "follow_me": "follow me",
+    "footer_desc": "Frontend developer passionate about building exceptional web applications",
+    "about_text": "I am a Software Engineering graduate and a dedicated Junior Front-End Developer who combines strong academic fundamentals with self-driven practical learning. I specialize in building responsive, modern web applications using React, TypeScript, JavaScript, and Tailwind CSS.​My primary focus is writing clean, scalable code and optimizing web performance to deliver seamless user experiences. I am currently focused on building real-world projects and integrating APIs effectively. I am eager to secure a full-time or remote Junior Front-End Developer position where I can contribute to meaningful projects and continue growing within a collaborative team"
+}

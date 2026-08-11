@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/protflo/static/css/main.a9a7a268.css",
+    "main.js": "/protflo/static/js/main.df78d86b.js",
+    "static/js/453.41e5f741.chunk.js": "/protflo/static/js/453.41e5f741.chunk.js",
+    "static/media/muhamed.jpg": "/protflo/static/media/muhamed.b20cd32f2926cee1bb4e.jpg",
+    "static/media/muhame.jpg": "/protflo/static/media/muhame.7433093d4d30b4e43c2a.jpg",
+    "static/media/logo.svg": "/protflo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/protflo/index.html",
+    "main.a9a7a268.css.map": "/protflo/static/css/main.a9a7a268.css.map",
+    "main.df78d86b.js.map": "/protflo/static/js/main.df78d86b.js.map",
+    "453.41e5f741.chunk.js.map": "/protflo/static/js/453.41e5f741.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9a7a268.css",
+    "static/js/main.df78d86b.js"
+  ]
+}

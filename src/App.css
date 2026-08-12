@@ -75,22 +75,101 @@ body.light .nav{
      background-color: white;
   color: black;
   }
-  body.light .footer-all .footer-container-one ,  body.light .footer-all .footer-container-one a ,body.light .footer-all .brand-desc-one ,body.light .footer-all .ahfor{
-     background-color: white;
-  color: black;
-  
 
-  }
-  body.light .footer-all .footer-links-one{
+  /* body.light .footer-all .footer-links-one{
     text-transform: capitalize;
    
-  }
-body.light .footer-all .footer-container-one a:hover{
-  color: blue;
-}
-  body.light .footer-all h3 ,   body.light .footer-all h2{
+  } */
+
+  /* body.light .footer-all h3 ,   body.light .footer-all h2{
+    color: black;
+  } */
+  body.light .footer-all .contact-container h3{
     color: black;
   }
-  body.light .footer-all .contact-container h3{
-    color: white;
-  }
+   body.light .footer-all .contact-card{
+    border: none;
+    box-shadow: 0px 0px 4px black;
+   } 
+   body.light .footer-all .icon-wrapper{
+background-color: black;
+border-radius: 50%;
+width: 30px;
+height: 30px;
+display: flex;
+justify-content: space-around;
+transform: scale(50deg);
+padding: 5px;
+margin-right: 20px;
+   }
+   body.light .all{
+    background-color: white;
+   }
+   body.light .all .h2{
+    color: black;
+    border-bottom: solid 1px black;
+   }
+   body.light .project-card{
+    box-shadow: 0px 0px 5px black;
+    background-color: transparent;
+   }
+    body.light .project-card h3{
+      color: #38bdf8;
+
+  text-transform: uppercase;
+
+  font-weight: 900;
+ 
+ 
+  text-shadow: 0px 1px 0px rgb(0, 0, 0),
+    0 2px 0 rgb(0, 0, 0),
+    0 3px 0 rgb(0, 0, 0),
+    0 4px 0 rgb(0, 0, 0),
+    0 5px 0 rgb(0, 0, 0),
+    0 6px 0 rgb(0, 0, 0),
+  
+   
+    1px 15px 4px #38bdf8,
+   
+    1px 25px 40px black,
+    1px 30px 80px black;
+
+    }
+     body.light .project-card p{
+      color: black;
+      font-weight: 500;
+     }
+      body.light .project-card .tech-badge{
+        background-color: transparent;
+        box-shadow: 0px 0px 5px black;
+        border: none;
+        color: black;
+        font-weight: 500;
+        transition: 0.3s;
+      }
+      body.light .project-card .tech-badge:hover{
+        background: rgba(0, 0, 0, 0.8);
+        color: white;
+        box-shadow: 0px 0px 5px #38bdf8;
+      }
+     body.light .skill-card .category-title{
+  color: #38bdf8;
+
+  text-transform: uppercase;
+
+  font-weight: 900;
+ 
+ 
+  text-shadow: 0px 1px 0px rgb(0, 0, 0),
+    0 2px 0 rgb(0, 0, 0),
+    0 3px 0 rgb(0, 0, 0),
+    0 4px 0 rgb(0, 0, 0),
+    0 5px 0 rgb(0, 0, 0),
+    0 6px 0 rgb(0, 0, 0),
+  
+   
+    1px 15px 4px #38bdf8,
+   
+    1px 25px 40px black,
+    1px 30px 80px black;
+      }

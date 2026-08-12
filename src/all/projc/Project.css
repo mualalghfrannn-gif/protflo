@@ -1,0 +1,170 @@
+.all{
+background-color: #050507;
+
+}
+.all .h2{
+   text-transform: uppercase;
+    border-bottom: solid 1px white;
+    margin:0px auto 20px;
+    width: 140px;
+    padding-bottom: 10px;
+    color: white;
+}
+.projects-container {
+ 
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: nowrap;           /* 👈 أهم خاصية: يمنع نزول الكروت للسطر الثاني */
+  overflow-x: auto;            /* 👈 تفعيل التمرير الأفقي عند زيادة الكروت */
+  scroll-snap-type: x mandatory; /* 👈 يجعل التمرير يتوقف عند كل كارت بسلاسة مثل Stories */
+  gap: 24px;
+  justify-content: flex-start;  /* ترتيب الكروت من البداية لتقبل التمرير */
+  align-items: center;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch; /* تمرير سلس جداً على هواتف المحمول */
+}
+
+/* 2. تخصيص شكل شريط التمرير (Scrollbar) ليكون احترافياً */
+.projects-container::-webkit-scrollbar {
+  height: 8px; /* ارتفاع الشريط السفلي */
+}
+
+.projects-container::-webkit-scrollbar-thumb {
+  background-color: #1e3a5f; /* لون شريط السحب */
+  border-radius: 10px;
+}
+
+.projects-container::-webkit-scrollbar-track {
+  background-color: #0b1329; /* لون خلفية الشريط */
+}
+
+/* 3. تعديل الكارت: إعطاء عرض ثابت ومنع الانكماش */
+.project-card {
+  flex: 0 0 300px;   
+       /* 👈 0 0 تمنع تقلص الكارت، و 320px تعطي عرضاً ثابتاً مناسباً */
+  scroll-snap-align: start;   /* 👈 ربط المحاذاة مع التمرير السلس */
+  background-color: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+.projects-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* 2. إخفاء شريط التمرير في متصفح Firefox */
+.projects-container {
+  scrollbar-width: none; /* هذا السطر يخفي الشريط في فايرفوكس */
+  -ms-overflow-style: none; /* هذا السطر يخفي الشريط في متصفحات IE القديمة */
+}
+.project-card:hover {
+  border-color: #38bdf8;
+  transform: translateY(-5px);
+}
+
+.project-card:hover {
+  border-color: #38bdf8;
+  transform: translateY(-5px);
+}
+
+/* حاوية الصورة */
+.card-image-wrapper {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.project-card:hover .card-image {
+  transform: scale(1.05);
+}
+
+/* محتوى الكارد الداخلي */
+.card-content {
+  padding: 24px;
+}
+
+/* العنوان */
+.project-title {
+  color: #38bdf8;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+   text-shadow: 0px 1px 0px rgb(0, 0, 0),
+    0 2px 0 rgb(0, 0, 0),
+    0 3px 0 rgb(0, 0, 0),
+    0 4px 0 rgb(0, 0, 0),
+    0 5px 0 rgb(0, 0, 0),
+    0 6px 0 rgb(0, 0, 0),
+   0 6px 0 rgb(0, 0, 0),
+   
+    1px 15px 10px #38bdf8,
+     1px 25px 20px black,
+    1px 25px 40px black,
+    1px 30px 80px black;
+}
+
+/* الوصف */
+.project-description {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0 0 24px 0;
+}
+
+/* أزرار التقنيات */
+.tech-stack-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.tech-badge {
+  padding: 6px 16px;
+  border: 1px solid #1e3a5f;
+  background-color: #0b192c;
+  color: #38bdf8;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: default;
+  transition: background-color 0.3s ease;
+}
+
+.tech-badge:hover {
+  background-color: #1e3a5f;
+}
+
+/* رابط المشروع */
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #38bdf8;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.project-link:hover {
+  color: #7dd3fc;
+}
+
+.project-link .arrow {
+  transition: transform 0.3s ease;
+}
+
+.project-link:hover .arrow {
+  transform: translateX(5px);
+}

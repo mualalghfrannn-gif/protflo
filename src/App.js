@@ -4,6 +4,7 @@ import Main from './all/main/Main';
 import Nav from "./all/nav/Nav"
 import Skills from './all/skills/Skills';
 import Footer from './all/footer/Footer';
+import Project from "./all/projc/Project"
 import './App.css';
 import "./i18n"
 
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Main />
       <Nav/>
+      <Project/>
       <Skills/>
       <Footer/>
     </div>

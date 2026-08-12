@@ -87,6 +87,12 @@ export default function Contact() {
 
 
 
+<div className="color-footer-and-for">
+
+
+
+
+
 
     <footer className="footer-container-one">
       <div className="footer-content-one">
@@ -133,10 +139,19 @@ export default function Contact() {
 
       </div>
     </footer>
-<hr></hr>
+
 <div className="ahfor">
     <p>{t("als")}</p>
 </div>
+
+
+
+
+
+</div>
+
+
+
 </div>
   );
 }

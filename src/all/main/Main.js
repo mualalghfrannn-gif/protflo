@@ -9,7 +9,7 @@ export default function Main() {
     const { t } = useTranslation();
 return(
    
-
+<div className="dark">
 <main  className="main-container">
      
       <div className="circle circle-1"></div>
@@ -22,7 +22,7 @@ return(
         <div className="downloade">
             <button>
               
-                <a href="#" download>
+                <a href="/muhamed_albasha-cv.pdf" target="_blank" rel="noopener noreferrer">
                     <p> {t(" resume")}</p>
                     <span><DownloadIcon /></span>
                 </a>
@@ -39,6 +39,7 @@ return(
      </div>
      
     </main>
+    </div>
   
 )
 }

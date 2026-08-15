@@ -22,7 +22,7 @@ return(
         <div className="downloade">
             <button>
               
-                <a href="/muhamed_albasha-cv.pdf" target="_blank" rel="noopener noreferrer">
+                <a href={process.env.PUBLIC_URL + "/muhamed_albasha-cv.pdf"} target="_blank" rel="noopener noreferrer">
                     <p> {t(" resume")}</p>
                     <span><DownloadIcon /></span>
                 </a>

@@ -6,28 +6,29 @@ export default function Project() {
   const projectsData = [
     {
       id: 1,
-      title: "To Do List App",
-      description: "A comprehensive task management app with real-time synchronization, priority levels, and persistent local storage for efficient productivity.",
-      image: "src/img/muhame.jpg", // ضع رابط صورة مشروعك هنا
-      techStack: ["HTML", "JavaScript", "CSS Tailwind"], // أزرار التقنيات داخل الكائن
-      projectLink: "#"
+      title: "coffee shop website",
+      description:  "A responsive and elegant Coffee Shop website featuring menu showcases, interactive order UI, and smooth layout navigation.",
+      image: "src/img/muhame.jpg", 
+      techStack: ["HTML5","css3" ,"JavaScript","react.js", "CSS Tailwind"], 
+      projectLink: "https://mualalghfrannn-gif.github.io/coffe/"
     },
     {
       id: 2,
-      title: "Weather Dashboard",
-      description: "A real-time weather tracking application providing accurate forecasts, location search, and interactive weather icons.",
-      image: "https://via.placeholder.com/600x350",
-      techStack: ["React", "TypeScript", "CSS3", "REST API"],
-      projectLink: "#"
+      title: "Albasha_E-commerce",
+      description: "A modern, responsive E-commerce web application built with react.js featuring interactive product catalog and cart management ",
+      image: "/src/img/muhame.jpg",
+      techStack: ["html", "css3", "javascript(ES6+)","react.js", "REST API","material ui","responsiv" ],
+      projectLink: " https://mualalghfrannn-gif.github.io/albasha-store-react/"
     },
      {
       id: 3,
-      title: "Weather Dashboard",
-      description: "A real-time weather tracking application providing accurate forecasts, location search, and interactive weather icons.",
+      title: "React Admin Dashboard",
+      description: "A modern, responsive admin dashboard built with React featuring interactive charts and a clean UI for seamless data management. ",
       image: "https://via.placeholder.com/600x350",
-      techStack: ["React", "TypeScript", "CSS3", "REST API"],
-      projectLink: "#"
-    }
+      techStack: ["html", "css3", "javascript(ES6+)","react.js","material ui","responsiv" ],
+      projectLink: " https://mualalghfrannn-gif.github.io/react-admin-dashboard/"
+    },
+    
   ];
 
   return (

@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import Header from './all/Header/Header';
 import Main from './all/main/Main';
 import Nav from "./all/nav/Nav"

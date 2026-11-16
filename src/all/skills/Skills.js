@@ -7,19 +7,19 @@ export default function Skills(){
   const skillsCategories = [
     {
       title: "Core & Languages",
-      skills: ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript"]
+      skills: ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript" , "PHP", "SQL", "mysql" ]
     },
     {
       title: "Frameworks & Styling",
-      skills: ["React.js", "Tailwind CSS", "Bootstrap" , "material ui"]
+      skills: ["React.js", "Tailwind CSS", "Bootstrap" , "material ui" , "Laravel"]
     },
     {
       title: "APIs & Developer Tools",
-      skills: ["REST APIs", "Postman", "Git & GitHub", "npm / Vite"]
+      skills: ["REST APIs", "Postman", "Git & GitHub", "npm / Vite" , "VS Code"]
     },
     {
       title: "Engineering & Practices",
-      skills: ["Clean Code", "Responsive Design", "Performance Optimization", "UI/UX Concepts"]
+      skills: ["Clean Code", "Responsive Design", "Performance Optimization", "UI/UX Concepts" ]
     }
   ];
   return (

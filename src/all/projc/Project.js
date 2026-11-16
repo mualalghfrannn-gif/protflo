@@ -28,6 +28,14 @@ export default function Project() {
       techStack: ["html", "css3", "javascript(ES6+)","react.js","material ui","responsiv" ],
       projectLink: " https://mualalghfrannn-gif.github.io/react-admin-dashboard/"
     },
+     {
+      id: 4,
+      title: "Reda Store - E-Commerce Web App",
+      description: "A modern, responsive e-commerce storefront featuring product categorization, promotional banners, and an interactive shopping cart system.",
+      image: "https://via.placeholder.com/600x350",
+      techStack: ["html", "css3", "javascript(ES6+)","react.js","material ui","responsiv" ],
+      projectLink: " https://muhamedalbasha028-lgtm.github.io/brojects/"
+    },
     
   ];
 
